@@ -47,3 +47,20 @@
 
 
 
+can1=input("ingrese canidato 1: ")
+can2=input("ingrese canidato 2: ")
+voto1=0
+voto2=0
+num=int(input("ingrese la cantidad de votantes: "))
+
+for i in range (num):
+    voto=int(input(f"Por quien votara. 1.-{can1} 2.- {can2} "))
+    if voto==1:
+        voto1+=1
+    elif voto==2:
+        voto2+=2
+    else:
+        print("voto no valido")
+if voto1>voto2:
+    print(f"el ganador es {can1} con {voto1} votos")
+else 
