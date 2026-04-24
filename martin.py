@@ -63,4 +63,5 @@ for i in range (num):
         print("voto no valido")
 if voto1>voto2:
     print(f"el ganador es {can1} con {voto1} votos")
-else 
+else :
+    print(F"")
