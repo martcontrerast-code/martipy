@@ -22,8 +22,8 @@ op=0
 while op!=4:
     print("elige una opcion")
     print("1.- contador de vocales y consonantes")
-    print("2.- ")
-
+    print("2.- TiendaGamer ")
+    print("3.- calculadora ")
 
 def contador_de_vocales_y_consonantes():
     vocales=0
