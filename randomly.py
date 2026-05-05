@@ -58,13 +58,66 @@ import time
 
 
 
-num=random.randint (1,100)
-numUsu=int(input("adivine el numero"))
+# num=random.randint (1,100)
+# numUsu=int(input("adivine el numero"))
 
-if num==numUsu:
-    print("has adivinado el numero!!")
-elif numUsu>num:
-    print("te has pasado")
-else:
-    print ("te ha faltado")
+# if num==numUsu:
+#     print("has adivinado el numero!!")
+# elif numUsu>num:
+#     print("te has pasado")
+# else:
+#     print ("te ha faltado")
+
+# print("loteria, adivina los 3 numeros ganadores")
+# print("inserta numeros del 1 al 9")
+# num1=random.randint (1,9)
+# num2=random.randint (1,9)
+# num3=random.randint (1,9)
+# print(f"{num1}{num2}{num3}")
+# numUsu1=int(input(" adivine el numero 1 "))
+# numUsu2=int(input(" adivine el numero 2 "))
+# numUsu3=int(input(" adivine el numero 3 "))
+# if num1==numUsu1 and num2==numUsu2 and num3==numUsu3 :
+#     print("has adivinado el numero!!")
+
+
+# num1=random.randint (1,9)
+# num2=random.randint (1,9)
+# num3=random.randint (1,9)
+# t1=False
+# t2=False
+# t3=False
+# print(f"los numeros generados son {num1}")
+
+
+
+# print("venta de latas nacionales")
+# lata=int(input("insertar el peso de la lata (gr)"))
+# while lata>=0:
+#     print("error, insertar valor positivo")
+#     lata=int(input("insertar el peso de la lata (gr)"))
+# sodio=int(input("ingrese la cantidad de sodio (gr)"))
+# while sodio not in range(1,100):
+#     print("error, el sodio tiene que ser entre 1gr a 100gr")
+#     sodio=int(input("ingrese la cantidad de sodio (gr)"))
+# if lata>500:
+#     print("es una lata normal")
+# elif lata>501 and lata<1500:
+#     print(" es una lata mediana")
+# elif lata<1501:
+#     print("es una lata grande")
+
+
+peces=random.randint(10,20)
+pLata=0
+pPlancha=0
+for p in range(peces):
+    pesoP=random.randint(100,2000)
+    if pesoP<800:
+        pLata+=1
+    else:
+        pPlancha+=1
+        
+
+
 
